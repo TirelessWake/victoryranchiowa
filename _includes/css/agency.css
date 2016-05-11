@@ -8,6 +8,7 @@ body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #{{ site.data.template.color.secondary-dark }};
+    background-color: #310404;
 }
 
 .text-muted {
@@ -266,7 +267,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
+    background-image: url('{{ site.baseurl }}/img/ranch/background.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;

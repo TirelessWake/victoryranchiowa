@@ -1,64 +1,76 @@
 url: https://victoryranchiowa.tirelesswake.com
-baseurl: 
+baseurl:
 
 # Site settings
-title: Awesome Title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: Victory Ranch, Inc.
+email: info@victoryranchiowa.org
+description: "Victory Ranch Iowa"
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 800  ### maroon
+  #primary: 749FD0  ### sarah suggestion
+  #primary: 2E67A6  ### blue
+  #primary:115198    ### dark blue
+  secondary: #BB0808 ### light maroon
+  #secondary: FFB70F   ### lighter yellow
+  #secondary: 033cfe
+  secondary-dark: 333
 
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
+- name: Vicki Baum
+  pic: vickibaum
+  position: Executive Director
   social:
-    - title: twitter
-      url: #
+    # - title: twitter
+    #   url: #
     - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+      url: https://www.facebook.com/vicki.baum.71
+    # - title: stack-overflow
+    #   url: #
 
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
-
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+# - name:
+#   pic: 2
+#   position: Person 2
+#   social:
+#     - title: twitter
+#       url: #
+#     - title: facebook
+#       url: #
+#     - title: linkedin
+#       url: #
+#
+# - name: Person 3
+#   pic: 3
+#   position: Lead Developer
+#   social:
+#     - title: twitter
+#       url: #
+#     - title: facebook
+#       url: #
+#     - title: google-plus
+#       url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+# social:
+#   # - title: twitter
+#   #   url: http://twitter.com/jekyllrb
+#   - title: facebook
+#     url:
+#   - title: stack-overflow
+#     url: http://stackoverflow.com/questions/tagged/jekyll
+#   - title: bitbucket
+#     url: http://bitbucket.org/jekyll
+#   - title: github
+#     url: http://github.com/jekyll
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Victory Ranch, Inc.
+  - line: 15603 Copperhead Road
+  - line: Ottumwa,IA 52501 USA
 
 # Build settings
 markdown: kramdown
