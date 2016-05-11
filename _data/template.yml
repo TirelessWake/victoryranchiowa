@@ -3,7 +3,8 @@ color:
   primary: E8B400
   secondary: fec503
   secondary-dark: ECECAB
-  muted: 777
+  muted: 310404
+  # muted: 777
 
 # Font Families
 font:
